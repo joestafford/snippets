@@ -1,230 +1,361 @@
 #!/bin/bash
-mkdir 'Azure' 'BizTalk' 'CategoryTitleFormat' 'Cloud' 'Developer' 'Dynamics' 'General' 'Licensing' 'Office' 'Power BI' 'PowerShell' 'SharePoint' 'SQL Server' 'Surface' 'System Center' 'Virtualization' 'Windows Client' 'Windows Server'
-wget -O 'Azure/Introducing Windows Azure™ for IT Professionals.pdf' 'http://ligman.me/1IW1oab'
-wget -O 'Azure/Microsoft Azure Essentials Azure Automation.pdf' 'http://ligman.me/1H4VXHT'
-wget -O 'Azure/Microsoft Azure Essentials Azure Machine Learning.pdf' 'http://ligman.me/1NDTZR4'
-wget -O 'Azure/Microsoft Azure Essentials Fundamentals of Azure.pdf' 'http://ligman.me/1JIhgjA'
-wget -O 'Azure/Microsoft Azure Essentials Fundamentals of Azure, Second Edition.pdf' 'http://ligman.me/2sUanwC'
-wget -O 'Azure/Microsoft Azure Essentials Fundamentals of Azure, Second Edition Mobile.pdf' 'http://ligman.me/2twPBSD'
-wget -O 'Azure/Microsoft Azure Essentials Migrating SQL Server Databases to Azure.pdf' 'http://ligman.me/2tE7q0i'
-wget -O 'Azure/Microsoft Azure Essentials Migrating SQL Server Databases to Azure 8.5X11.pdf' 'http://ligman.me/2t2y29a'
-wget -O 'Azure/Microsoft Azure ExpressRoute Guide.pdf' 'http://ligman.me/2tJ1pj4'
-wget -O 'Azure/Rapid Deployment Guide For Azure Rights Management.pdf' 'http://ligman.me/2u2KdXT'
-wget -O 'Azure/Rethinking Enterprise Storage: A Hybrid Cloud Model.pdf' 'http://ligman.me/1IW1s9S'
-wget -O 'BizTalk/BizTalk Server 2016 Licensing Datasheet.pdf' 'http://ligman.me/2tEn8Zy'
-wget -O 'Cloud/Enterprise Cloud Strategy.pdf' 'http://ligman.me/2u0WD2F'
-wget -O 'Cloud/Enterprise Cloud Strategy.pdf' 'http://ligman.me/2t2Ghm1'
-wget -O 'Developer/.NET Microservices: Architecture for Containerized .NET Applications.pdf' 'http://ligman.me/2sLiBTE'
-wget -O 'Developer/.NET Technology Guidance for Business Applications.pdf' 'http://ligman.me/1gfeQ27'
-wget -O 'Developer/Building Cloud Apps with Microsoft Azure™: Best practices for DevOps, data storage, high availability, and more.pdf' 'http://ligman.me/1KBM8DL'
-wget -O 'Developer/Containerized Docker Application Lifecycle with Microsoft Platform and Tools.pdf' 'http://ligman.me/2v7M0bp'
-wget -O 'Developer/Creating Mobile Apps with Xamarin.Forms, Preview Edition 2.pdf' 'http://ligman.me/1dDcwQC'
-wget -O 'Developer/Creating Mobile Apps with Xamarin.Forms: Cross-platform C# programming for iOS, Android, and Windows.pdf' 'http://ligman.me/2u1190V'
-wget -O 'Developer/Managing Agile Open-Source Software Projects with Microsoft Visual Studio Online.pdf' 'http://ligman.me/1NErkvl'
-wget -O 'Developer/Microsoft Azure Essentials Azure Web Apps for Developers.pdf' 'http://ligman.me/1epZeHO'
-wget -O 'Developer/Microsoft Platform and Tools for Mobile App Development.pdf' 'http://ligman.me/2t2WqaR'
-wget -O 'Developer/Microsoft Platform and Tools for Mobile App Development.pdf' 'http://ligman.me/2sUA9kk'
-wget -O 'Developer/Moving to Microsoft® Visual Studio® 2010.pdf' 'http://ligman.me/1JITgwM'
-wget -O 'Developer/Programming Windows 8 Apps with HTML, CSS, and JavaScript.pdf' 'http://ligman.me/1LN5APL'
-wget -O 'Developer/Programming Windows Store Apps with HTML, CSS, and JavaScript, Second Edition.pdf' 'http://ligman.me/1RWzfoe'
-wget -O 'Developer/Programming Windows® Phone 7 (Special Excerpt 2).pdf' 'http://ligman.me/1KyWLZv'
-wget -O 'Developer/Team Foundation Server to Visual Studio Team Services Migration Guide.pdf' 'http://ligman.me/2tEKIoU'
-wget -O 'Dynamics/5 cool things you can do with CRM for tablets.pdf' 'http://ligman.me/2uGZkV1'
-wget -O 'Dynamics/Create Custom Analytics in Dynamics 365 with Power BI.pdf' 'http://ligman.me/2tJAEuU'
-wget -O 'Dynamics/Create of Customize System Dashboards.pdf' 'http://ligman.me/1odT1MW'
-wget -O 'Dynamics/Create Your First CRM Marketing Campaign.pdf' 'http://ligman.me/1NJ0vpb'
-wget -O 'Dynamics/CRM Basics for Outlook basics.pdf' 'http://ligman.me/1dHBtdA'
-wget -O 'Dynamics/CRM Basics for Sales Pros and Service Reps.pdf' 'http://ligman.me/1NIYrxw'
-wget -O 'Dynamics/Give Great Customer Service with CRM.pdf' 'http://ligman.me/1qNYIYi'
-wget -O 'Dynamics/Go Mobile with CRM for Phones.pdf' 'http://ligman.me/1rH9Ar3'
-wget -O 'Dynamics/Go Mobile with CRM for Tablets.pdf' 'http://ligman.me/1kvWKEm'
-wget -O 'Dynamics/Import Contacts into CRM.pdf' 'http://ligman.me/1m8yCMD'
-wget -O 'Dynamics/Introducing Microsoft Social Engagement.pdf' 'http://ligman.me/1kvXrxj'
-wget -O 'Dynamics/Introduction to Business Processes.pdf' 'http://ligman.me/1pUnYfG'
-wget -O 'Dynamics/Meet Your Service Goals with SLAs and Entitlements.pdf' 'http://ligman.me/1CWgeLI'
-wget -O 'Dynamics/Microsoft Dynamics CRM 2016 Interactive Service Hub User Guide.pdf' 'http://ligman.me/2v0ShWr'
-wget -O 'Dynamics/Microsoft Dynamics CRM 2016 On-Premises Volume Licensing and Pricing Guide.pdf' 'http://ligman.me/2sF6M19'
-wget -O 'Dynamics/Microsoft Dynamics CRM for Outlook Installing Guide for use with Microsoft Dynamics CRM Online.pdf' 'http://ligman.me/2sVh6qf'
-wget -O 'Dynamics/Microsoft Dynamics CRM Resource Guide 2015.pdf' 'http://ligman.me/2tYdqU8'
-wget -O 'Dynamics/Microsoft Social Engagement for CRM.pdf' 'http://ligman.me/1oB9ptL'
-wget -O 'Dynamics/Product Overview and Capability Guide Microsoft Dynamics NAV 2016.pdf' 'http://ligman.me/2sFbbl0'
-wget -O 'Dynamics/RAP as a Service for Dynamics CRM.pdf' 'http://ligman.me/2v1ok8u'
-wget -O 'Dynamics/Set Up A Social Engagement Search For Your Product.pdf' 'http://ligman.me/1HIcIKB'
-wget -O 'Dynamics/Social is for Closers.pdf' 'http://ligman.me/1Cl328D'
-wget -O 'Dynamics/Start Working in CRM.pdf' 'http://ligman.me/VSpodw'
-wget -O 'Dynamics/Your Brand Sux.pdf' 'http://ligman.me/1S36CGa'
-wget -O 'General/10 essential tips and tools for mobile working.pdf' 'http://ligman.me/2tEPKBF'
-wget -O 'General/An employee.pdf' 'http://ligman.me/2sVSiyp'
-wget -O 'Licensing/Introduction to Per Core Licensing and Basic Definitions.pdf' 'http://ligman.me/1H1MFKr'
-wget -O 'Licensing/Licensing Windows and Microsoft Office for use on the Macintosh.pdf' 'http://ligman.me/2u2bSbh'
-wget -O 'Licensing/VLSC Software Assurance Guide.pdf' 'http://ligman.me/2u7XYoT'
-wget -O 'Licensing/Windows Server 2016 and System Center 2016 Pricing and Licensing FAQs.pdf' 'http://ligman.me/2txAWqi'
-wget -O 'Office/Access 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1sgBtn4'
-wget -O 'Office/Azure AD/Office 365 seamless sign-in.pdf' 'http://ligman.me/2tEnvmU'
-wget -O 'Office/Content Encryption in Microsoft Office 365.pdf' 'http://ligman.me/2txxLic'
-wget -O 'Office/Controlling Access to Office 365 and Protecting Content on Devices.pdf' 'http://ligman.me/2u89sJ3'
-wget -O 'Office/Customize Word 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1qzON6Q'
-wget -O 'Office/Data Resiliency in Microsoft Office 365.pdf' 'http://ligman.me/2tXYR34'
-wget -O 'Office/Excel 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1onTg9n'
-wget -O 'Office/Excel Online Keyboard Shortcuts.pdf' 'http://ligman.me/VP2t2L'
-wget -O 'Office/File Protection Solutions in Office 365.pdf' 'http://ligman.me/2v0u0jd'
-wget -O 'Office/First Look: Microsoft® Office 2010.pdf' 'http://ligman.me/1Ra595J'
-wget -O 'Office/Get Started With Microsoft OneDrive.pdf' 'http://ligman.me/2v0H3ku'
-wget -O 'Office/Get Started With Microsoft Project Online.pdf' 'http://ligman.me/2tEtms3'
-wget -O 'Office/How To Recover That Un-Saved Office Document.pdf' 'http://ligman.me/1jWMJA2'
-wget -O 'Office/InfoPath 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1qZlnOJ'
-wget -O 'Office/Licensing Microsoft Office 365 ProPlus Subscription Service in Volume Licensing.pdf' 'http://ligman.me/1xqtaWN'
-wget -O 'Office/Licensing Microsoft Office software in Volume Licensing.pdf' 'http://ligman.me/2v0v72p'
-wget -O 'Office/Microsoft Access 2013 Quick Start Guide.pdf' 'http://ligman.me/1HCDxl9'
-wget -O 'Office/Microsoft Classroom Deployment.pdf' 'http://ligman.me/2u7Lw8N'
-wget -O 'Office/Microsoft Excel 2013 Quick Start Guide.pdf' 'http://ligman.me/1HByNKS'
-wget -O 'Office/Microsoft Excel 2016 for Mac Quick Start Guide.pdf' 'http://ligman.me/29a22WR'
-wget -O 'Office/Microsoft Excel 2016 Quick Start Guide.pdf' 'http://ligman.me/29bcJtd'
-wget -O 'Office/Microsoft Excel Mobile Quick Start Guide.pdf' 'http://ligman.me/29rwoHw'
-wget -O 'Office/Microsoft Excel VLOOKUP Troubleshooting Tips.pdf' 'http://ligman.me/2sF7s6H'
-wget -O 'Office/Microsoft OneNote 2013 Quick Start Guide.pdf' 'http://ligman.me/1CSMobd'
-wget -O 'Office/Microsoft OneNote 2016 for Mac Quick Start Guide.pdf' 'http://ligman.me/29d5XTw'
-wget -O 'Office/Microsoft OneNote 2016 Quick Start Guide.pdf' 'http://ligman.me/29rwoY0'
-wget -O 'Office/Microsoft OneNote 2016 Tips and Tricks.pdf' 'http://ligman.me/29d1wc3'
-wget -O 'Office/Microsoft OneNote Mobile Quick Start Guide.pdf' 'http://ligman.me/29fudHc'
-wget -O 'Office/Microsoft Outlook 2013 Quick Start Guide.pdf' 'http://ligman.me/1FYtDD8'
-wget -O 'Office/Microsoft Outlook 2016 for Mac Quick Start Guide.pdf' 'http://ligman.me/29hVdVa'
-wget -O 'Office/Microsoft Outlook 2016 Quick Start Guide.pdf' 'http://ligman.me/29fDult'
-wget -O 'Office/Microsoft Outlook 2016 Tips and Tricks.pdf' 'http://ligman.me/29cfePX'
-wget -O 'Office/Microsoft Powerpoint 2013 Quick Start Guide.pdf' 'http://ligman.me/1NCfcKC'
-wget -O 'Office/Microsoft PowerPoint 2016 for Mac Quick Start Guide.pdf' 'http://ligman.me/29fDylj'
-wget -O 'Office/Microsoft PowerPoint 2016 for Mac Quick Start Guide.pdf' 'http://ligman.me/29fDylj'
-wget -O 'Office/Microsoft PowerPoint Mobile Quick Start Guide.pdf' 'http://ligman.me/29d5AbX'
-wget -O 'Office/Microsoft Project 2013 Quick Start Guide.pdf' 'http://ligman.me/1JI6V77'
-wget -O 'Office/Microsoft Publisher 2013 Quick Start Guide.pdf' 'http://ligman.me/1H4Q0e5'
-wget -O 'Office/Microsoft Visio 2013 Quick Start Guide.pdf' 'http://ligman.me/1LMpRns'
-wget -O 'Office/Microsoft Word 2013 Quick Start Guide.pdf' 'http://ligman.me/1HCCCRP'
-wget -O 'Office/Microsoft Word 2016 for Mac Quick Start Guide.pdf' 'http://ligman.me/29FzGG5'
-wget -O 'Office/Microsoft Word 2016 Quick Start Guide.pdf' 'http://ligman.me/29e6cTO'
-wget -O 'Office/Microsoft Word Mobile Quick Start Guide.pdf' 'http://ligman.me/29gfrkN'
-wget -O 'Office/Microsoft® Office 365: Connect and Collaborate Virtually Anywhere, Anytime.pdf' 'http://ligman.me/1Ra5c1c'
-wget -O 'Office/Office 365 Dedicated Platform vNext Service Release.pdf' 'http://ligman.me/2sVGUSX'
-wget -O 'Office/Office 365 Licensing Brief.pdf' 'http://ligman.me/2u1KmL9'
-wget -O 'Office/OneNote 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1n49kzj'
-wget -O 'Office/OneNote Online Keyboard Shortcuts.pdf' 'http://ligman.me/1qZlFVR'
-wget -O 'Office/Outlook 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/TWa2Dg'
-wget -O 'Office/Outlook Web App Keyboard Shortcuts.pdf' 'http://ligman.me/1xzdEtT'
-wget -O 'Office/Own Your Future: Update Your Skills with Resources and Career Ideas from Microsoft®.pdf' 'http://ligman.me/1Cg5iOv'
-wget -O 'Office/PowerPoint Online Keyboard Shortcuts.pdf' 'http://ligman.me/1onU8Ld'
-wget -O 'Office/Project 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1vM9mwt'
-wget -O 'Office/Publisher 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1rB8nl1'
-wget -O 'Office/Security and Privacy For Microsoft Office 2010 Users.pdf' 'http://ligman.me/1JDjqUt'
-wget -O 'Office/Security Incident Management in Microsoft Office 365.pdf' 'http://ligman.me/2tYk9gX'
-wget -O 'Office/Security Incident Management in Microsoft Office 365.pdf' 'http://ligman.me/2tYk9gX'
-wget -O 'Office/SharePoint Online Dedicated &amp.pdf' 'http://ligman.me/2sVrsGy'
-wget -O 'Office/Skype for Business User Tips &amp.pdf' 'http://ligman.me/1M7Xr5v'
-wget -O 'Office/Switching from Google Apps to Office 365 for business.pdf' 'http://ligman.me/2t3nqXV'
-wget -O 'Office/Tenant Isolation in Microsoft Office 365.pdf' 'http://ligman.me/2u2K9aI'
-wget -O 'Office/Visio 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1vM9H2d'
-wget -O 'Office/Windows 10 Tips and Tricks.pdf' 'http://ligman.me/2sFsnXy'
-wget -O 'Office/Word 2013 Keyboard Shortcuts.pdf' 'http://ligman.me/1m6xucg'
-wget -O 'Office/Word Online Keyboard Shortcuts.pdf' 'http://ligman.me/1qzRntH'
-wget -O 'Office/Working with SmartArt Graphics Keyboard Shortcuts.pdf' 'http://ligman.me/1lJmKeW'
-wget -O 'Power BI/How to plan capacity for embedded analytics with Power BI Premium.pdf' 'http://ligman.me/2t3HOIt'
-wget -O 'Power BI/Introducing Microsoft Power BI.pdf' 'http://ligman.me/2tE789y'
-wget -O 'Power BI/Introducing Microsoft Power BI.pdf' 'http://ligman.me/2sUDY9j'
-wget -O 'Power BI/Microsoft Power BI Premium Whitepaper.pdf' 'http://ligman.me/2tEI5U4'
-wget -O 'PowerShell/Microsoft Dynamics GP 2015 R2 PowerShell Users Guide.pdf' 'http://ligman.me/2uH1kN1'
-wget -O 'PowerShell/PowerShell Integrated Scripting Environment 3.0.pdf' 'http://ligman.me/2tY8L4x'
-wget -O 'PowerShell/Simplify Group Policy administration with Windows PowerShell.pdf' 'http://ligman.me/2tyf2TJ'
-wget -O 'PowerShell/Windows PowerShell.pdf' 'http://ligman.me/2v0CY01'
-wget -O 'PowerShell/Windows PowerShell 3.0 Examples.pdf' 'http://ligman.me/2v0vXMn'
-wget -O 'PowerShell/Windows PowerShell 3.0 Language Quick Reference.pdf' 'http://ligman.me/2u8l13d'
-wget -O 'PowerShell/WINDOWS POWERSHELL 4.0 LANGUAGE QUICK REFERENCE.pdf' 'http://ligman.me/2u8jZEr'
-wget -O 'PowerShell/Windows PowerShell 4.0 Language Reference Examples.pdf' 'http://ligman.me/1omCrM6'
-wget -O 'PowerShell/Windows PowerShell Command Builder User’s Guide.pdf' 'http://ligman.me/2sFvbUs'
-wget -O 'PowerShell/Windows PowerShell Desired State Configuration Quick Reference.pdf' 'http://ligman.me/2tYmSHb'
-wget -O 'PowerShell/WINDOWS POWERSHELL INTEGRATED SCRIPTING ENVIRONMENT 4.0.pdf' 'http://ligman.me/1n3mkVY'
-wget -O 'PowerShell/Windows PowerShell Web Access.pdf' 'http://ligman.me/2tEXUKw'
-wget -O 'PowerShell/WMI in PowerShell 3.0.pdf' 'http://ligman.me/2tEAt3Z'
-wget -O 'PowerShell/WMI in Windows PowerShell 4.0.pdf' 'http://ligman.me/2t3uPGw'
-wget -O 'SharePoint/Configuring Microsoft SharePoint Hybrid Capabilities.pdf' 'http://ligman.me/2uFTByu'
-wget -O 'SharePoint/Configuring Microsoft SharePoint Hybrid Capabilities.pdf' 'http://ligman.me/2tXvePt'
-wget -O 'SharePoint/Deployment guide for Microsoft SharePoint 2013.pdf' 'http://ligman.me/12FIZ1I'
-wget -O 'SharePoint/Microsoft SharePoint Server 2016 Architectural Models.pdf' 'http://ligman.me/2v0Dhb1'
-wget -O 'SharePoint/Planning and Preparing for Microsoft SharePoint Hybrid.pdf' 'http://ligman.me/2u0QCD2'
-wget -O 'SharePoint/Planning and Preparing for Microsoft SharePoint Hybrid.pdf' 'http://ligman.me/2sEzMGA'
-wget -O 'SharePoint/RAP as a Service for SharePoint Server.pdf' 'http://ligman.me/2u8h5PG'
-wget -O 'SharePoint/SharePoint Online Dedicated Service Description.pdf' 'http://ligman.me/2uGN9ao'
-wget -O 'SharePoint/SharePoint Products Keyboard Shortcuts.pdf' 'http://ligman.me/TL3pn1'
-wget -O 'SharePoint/SharePoint Server 2016 Databases.pdf' 'http://ligman.me/2txHeGo'
-wget -O 'SharePoint/SharePoint Server 2016 Quick Start Guide.pdf' 'http://ligman.me/29FkNr3'
-wget -O 'SQL Server/5 Tips For A Smooth SSIS Upgrade to SQL Server 2012.pdf' 'http://ligman.me/1anyEJj'
-wget -O 'SQL Server/Backup and Restore of SQL Server Databases.pdf' 'http://ligman.me/N1HEpM'
-wget -O 'SQL Server/Data Science with Microsoft SQL Server 2016.pdf' 'http://ligman.me/2sVpUwk'
-wget -O 'SQL Server/Deeper insights across data with SQL Server 2016.pdf' 'http://ligman.me/2u8ao0i'
-wget -O 'SQL Server/Guide to Migrating from Oracle to SQL Server 2014 and Azure SQL Database.pdf' 'http://ligman.me/1ReR3Qq'
-wget -O 'SQL Server/Introducing Microsoft Azure™ HDInsight™.pdf' 'http://ligman.me/1RWzIGZ'
-wget -O 'SQL Server/Introducing Microsoft Data Warehouse Fast Track for SQL Server 2016.pdf' 'http://ligman.me/2u2j5sf'
-wget -O 'SQL Server/Introducing Microsoft SQL Server 2012.pdf' 'http://ligman.me/1gfab07'
-wget -O 'SQL Server/Introducing Microsoft SQL Server 2014.pdf' 'http://ligman.me/1C7dU9J'
-wget -O 'SQL Server/Introducing Microsoft SQL Server 2016: Mission-Critical Applications, Deeper Insights, Hyperscale Cloud, Preview 2.pdf' 'http://ligman.me/2u7ml6r'
-wget -O 'SQL Server/Introducing Microsoft SQL Server 2016: Mission-Critical Applications, Deeper Insights, Hyperscale Cloud, Preview 2.pdf' 'http://ligman.me/2t2o340'
-wget -O 'SQL Server/Introducing Microsoft® SQL Server® 2008 R2.pdf' 'http://ligman.me/1KyNJvs'
-wget -O 'SQL Server/Microsoft SharePoint Server 2016 Reviewer.pdf' 'http://ligman.me/29pcQFA'
-wget -O 'SQL Server/Microsoft SQL Server 2012 Tutorials: Analysis Services.pdf' 'http://ligman.me/N1J8A8'
-wget -O 'SQL Server/Microsoft SQL Server 2012 Tutorials: Analysis Services.pdf' 'http://ligman.me/N1JfvI'
-wget -O 'SQL Server/Microsoft SQL Server 2012 Tutorials: Reporting Services Quick Step-by-Step.pdf' 'http://ligman.me/16E6G9L'
-wget -O 'SQL Server/Microsoft SQL Server 2012 Tutorials: Writing Transact-SQL-Statements.pdf' 'http://ligman.me/16dHXZ9'
-wget -O 'SQL Server/Microsoft SQL Server 2014 Licensing Guide.pdf' 'http://ligman.me/1S1f34H'
-wget -O 'SQL Server/Microsoft SQL Server 2016 Licensing Datasheet.pdf' 'http://ligman.me/2sFqolM'
-wget -O 'SQL Server/Microsoft SQL Server 2016 Licensing Guide.pdf' 'http://ligman.me/2tEHwtq'
-wget -O 'SQL Server/Microsoft SQL Server 2016 Mission-Critical Performance Technical White Paper.pdf' 'http://ligman.me/2uGQTc7'
-wget -O 'SQL Server/Microsoft SQL Server 2016 New Innovations.pdf' 'http://ligman.me/2u7TbUy'
-wget -O 'SQL Server/Microsoft SQL Server 2016 SP1 Editions.pdf' 'http://ligman.me/2tYmEzR'
-wget -O 'SQL Server/Microsoft SQL Server In-Memory OLTP and Columnstore Feature Comparison.pdf' 'http://ligman.me/2tYaW8d'
-wget -O 'SQL Server/RAP as a Service for SQL Server.pdf' 'http://ligman.me/2u2HKg6'
-wget -O 'SQL Server/SQLCAT.pdf' 'http://ligman.me/2tEHLVm'
-wget -O 'SQL Server/Xquery Language Reference.pdf' 'http://ligman.me/11IMDlh'
-wget -O 'Surface/Surface Book User Guide.pdf' 'http://ligman.me/29i2CEe'
-wget -O 'Surface/Surface Pro 4 User Guide.pdf' 'http://ligman.me/29hofVk'
-wget -O 'System Center/Introducing Microsoft System Center 2012 R2.pdf' 'http://ligman.me/1dD6S0J'
-wget -O 'System Center/Microsoft System Center Building a Virtualized Network Solution, Second Edition.pdf' 'http://ligman.me/2sUch05'
-wget -O 'System Center/Microsoft System Center Data Protection for the Hybrid Cloud.pdf' 'http://ligman.me/1JDrhBp'
-wget -O 'System Center/Microsoft System Center Deploying Hyper-V with Software-Defined Storage &amp.pdf' 'http://ligman.me/1C7okGv'
-wget -O 'System Center/Microsoft System Center Extending Operations Manager Reporting.pdf' 'http://ligman.me/1KBVfnS'
-wget -O 'System Center/Microsoft System Center Introduction to Microsoft Automation Solutions.pdf' 'http://ligman.me/1IzHZA1'
-wget -O 'System Center/Microsoft System Center Operations Manager Field Experience.pdf' 'http://ligman.me/1GUUqSD'
-wget -O 'System Center/Microsoft System Center Software Update Management Field Experience.pdf' 'http://ligman.me/1CQXNbj'
-wget -O 'System Center/Microsoft System Center: Building a Virtualized Network Solution.pdf' 'http://ligman.me/1GUOZ6b'
-wget -O 'System Center/Microsoft System Center: Cloud Management with App Controller.pdf' 'http://ligman.me/1GUP0qL'
-wget -O 'System Center/Microsoft System Center: Configuration Manager Field Experience.pdf' 'http://ligman.me/1KBMN8a'
-wget -O 'System Center/Microsoft System Center: Designing Orchestrator Runbooks.pdf' 'http://ligman.me/1f9cKQZ'
-wget -O 'System Center/Microsoft System Center: Integrated Cloud Platform.pdf' 'http://ligman.me/1gfaIzh'
-wget -O 'System Center/Microsoft System Center: Network Virtualization and Cloud Computing.pdf' 'http://ligman.me/1JIF6vB'
-wget -O 'System Center/Microsoft System Center: Optimizing Service Manager.pdf' 'http://ligman.me/1M00Lzu'
-wget -O 'System Center/Microsoft System Center: Troubleshooting Configuration Manager.pdf' 'http://ligman.me/1M00v3u'
-wget -O 'System Center/What’s new in System Center 2016 White Paper.pdf' 'http://ligman.me/2t3NaDl'
-wget -O 'Virtualization/Understanding Microsoft Virtualizaton R2 Solutions.pdf' 'http://ligman.me/1eql6Ts'
-wget -O 'Windows Client/Deploying Windows 10: Automating deployment by using System Center Configuration Manager.pdf' 'http://ligman.me/2sE9XX1'
-wget -O 'Windows Client/Deploying Windows 10: Automating deployment by using System Center Configuration Manager.pdf' 'http://ligman.me/2twLeqF'
-wget -O 'Windows Client/Introducing Windows 10 for IT Professionals.pdf' 'http://ligman.me/2t2WmYx'
-wget -O 'Windows Client/Introducing Windows 10 for IT Professionals, Preview Edition.pdf' 'http://ligman.me/1Uiyx8Q'
-wget -O 'Windows Client/Introducing Windows 8.1 for IT Professionals.pdf' 'http://ligman.me/1JDrMeG'
-wget -O 'Windows Client/Introducing Windows 8: An Overview for IT Professionals.pdf' 'http://ligman.me/1GVGQgI'
-wget -O 'Windows Client/Licensing Windows desktop operating system for use with virtual machines.pdf' 'http://ligman.me/2txIfxW'
-wget -O 'Windows Client/RAP as a Service for Windows Desktop.pdf' 'http://ligman.me/2u2R83b'
-wget -O 'Windows Client/Volume Licensing Reference Guide Windows 10 Desktop Operating System.pdf' 'http://ligman.me/2sFzkaR'
-wget -O 'Windows Client/Windows 10 IT Pro Essentials Support Secrets.pdf' 'http://ligman.me/2u12Nj7'
-wget -O 'Windows Client/Windows 10 IT Pro Essentials Support Secrets.pdf' 'http://ligman.me/2uFUOG1'
-wget -O 'Windows Client/Windows 10 IT Pro Essentials Top 10 Tools.pdf' 'http://ligman.me/2t2cYjp'
-wget -O 'Windows Client/Windows 10 IT Pro Essentials Top 10 Tools.pdf' 'http://ligman.me/2u15CAR'
-wget -O 'Windows Client/Work Smart: Windows 8 Shortcut Keys.pdf' 'http://ligman.me/1sfkqBW'
-wget -O 'Windows Server/Introducing Windows Server 2008 R2.pdf' 'http://ligman.me/1FYVYcy'
-wget -O 'Windows Server/Introducing Windows Server 2012.pdf' 'http://ligman.me/1M0681D'
-wget -O 'Windows Server/Introducing Windows Server 2012 R2.pdf' 'http://ligman.me/1NCxHi5'
-wget -O 'Windows Server/Introducing Windows Server 2016.pdf' 'http://ligman.me/2uFKRZd'
-wget -O 'Windows Server/Introducing Windows Server 2016.pdf' 'http://ligman.me/2tDMJl0'
-wget -O 'Windows Server/Introducing Windows Server 2016 Technical Preview.pdf' 'http://ligman.me/2uFDelL'
-wget -O 'Windows Server/Introducing Windows Server 2016 Technical Preview.pdf' 'http://ligman.me/2twmtKY'
-wget -O 'Windows Server/Introducing Windows Server® 2012 R2 Preview Release.pdf' 'http://ligman.me/1f9k8fe'
-wget -O 'Windows Server/Offline Assessment for Active Directory.pdf' 'http://ligman.me/2v1cDyG'
-wget -O 'Windows Server/RAP as a Service for Active Directory.pdf' 'http://ligman.me/2txRQFd'
-wget -O 'Windows Server/RAP as a Service for Failover Cluster.pdf' 'http://ligman.me/2v1zdYa'
-wget -O 'Windows Server/RAP as a Service for Internet Information Services.pdf' 'http://ligman.me/2sW0A9v'
-wget -O 'Windows Server/RAP as a Service for Windows Server Hyper-V.pdf' 'http://ligman.me/2txQLgl'
+wget --content-disposition http://ligman.me/1IW1oab		
+wget --content-disposition http://ligman.me/1Uixtlq		
+wget --content-disposition http://ligman.me/1R9Ubgt		
+wget --content-disposition http://ligman.me/1H4VXHT		
+wget --content-disposition http://ligman.me/1f8XUKy		
+wget --content-disposition http://ligman.me/1HBEUPi		
+wget --content-disposition http://ligman.me/1NDTZR4		
+wget --content-disposition http://ligman.me/1Uiy2f9		
+wget --content-disposition http://ligman.me/1epZ0QU		
+wget --content-disposition http://ligman.me/1JIhgjA		
+wget --content-disposition http://ligman.me/1CQX5uG		
+wget --content-disposition http://ligman.me/1JD5Q3i		
+wget --content-disposition http://ligman.me/2sUanwC		
+wget --content-disposition http://ligman.me/2twPBSD		
+wget --content-disposition http://ligman.me/2tE7q0i		
+wget --content-disposition http://ligman.me/2t2y29a		
+wget --content-disposition http://ligman.me/2tJ1pj4		
+wget --content-disposition http://ligman.me/2u2KdXT		
+wget --content-disposition http://ligman.me/1IW1s9S		
+wget --content-disposition http://ligman.me/1UixANR		
+wget --content-disposition http://ligman.me/1f8Xvri		
+wget --content-disposition http://ligman.me/2tEn8Zy		
+wget --content-disposition http://ligman.me/2tEbPAp		
+wget --content-disposition http://ligman.me/2u0WD2F		
+wget --content-disposition http://ligman.me/2t2FyB9		
+wget --content-disposition http://ligman.me/2uGi1Ig		
+wget --content-disposition http://ligman.me/2t2Ghm1		
+wget --content-disposition http://ligman.me/2sLiBTE		
+wget --content-disposition http://ligman.me/1gfeQ27		
+wget --content-disposition http://ligman.me/1KBM8DL		
+wget --content-disposition http://ligman.me/1GVxKR6		
+wget --content-disposition http://ligman.me/1KBM1YL		
+wget --content-disposition http://ligman.me/2v7M0bp		
+wget --content-disposition http://ligman.me/1dDcwQC		
+wget --content-disposition http://ligman.me/1LIQw4D		
+wget --content-disposition http://ligman.me/1HCWJ2c		
+wget --content-disposition http://ligman.me/2u1190V		
+wget --content-disposition http://ligman.me/2sE8dNG		
+wget --content-disposition http://ligman.me/2twPKVT		
+wget --content-disposition http://ligman.me/1NErkvl		
+wget --content-disposition http://ligman.me/1KyWplK		
+wget --content-disposition http://ligman.me/1RabduO		
+wget --content-disposition http://ligman.me/1epZeHO		
+wget --content-disposition http://ligman.me/2tE9hCx		
+wget --content-disposition http://ligman.me/2uFU3wF		
+wget --content-disposition http://ligman.me/2t2WqaR		
+wget --content-disposition http://ligman.me/2sUA9kk		
+wget --content-disposition http://ligman.me/1CQXMEp		
+wget --content-disposition http://ligman.me/1JITgwM		
+wget --content-disposition http://ligman.me/1RaaZny		
+wget --content-disposition http://ligman.me/2uZg49h		
+wget --content-disposition http://ligman.me/1LN5APL		
+wget --content-disposition http://ligman.me/1GVx0eW		
+wget --content-disposition http://ligman.me/1dD5sDy		
+wget --content-disposition http://ligman.me/1RWzfoe		
+wget --content-disposition http://ligman.me/1JDj7Jl		
+wget --content-disposition http://ligman.me/1f9bOfu		
+wget --content-disposition http://ligman.me/1LNdusd		
+wget --content-disposition http://ligman.me/1KyWLZv		
+wget --content-disposition http://ligman.me/2tEKIoU		
+wget --content-disposition http://ligman.me/2uGZkV1		
+wget --content-disposition http://ligman.me/2tJAEuU		
+wget --content-disposition http://ligman.me/1odT1MW		
+wget --content-disposition http://ligman.me/1NJ0vpb		
+wget --content-disposition http://ligman.me/1dHBtdA		
+wget --content-disposition http://ligman.me/1NIYrxw		
+wget --content-disposition http://ligman.me/1qNYIYi		
+wget --content-disposition http://ligman.me/1rH9Ar3		
+wget --content-disposition http://ligman.me/1kvWKEm		
+wget --content-disposition http://ligman.me/1m8yCMD		
+wget --content-disposition http://ligman.me/1kvXrxj		
+wget --content-disposition http://ligman.me/1pUnYfG		
+wget --content-disposition http://ligman.me/1CWgeLI		
+wget --content-disposition http://ligman.me/2v0ShWr		
+wget --content-disposition http://ligman.me/2sF6M19		
+wget --content-disposition http://ligman.me/2sVh6qf		
+wget --content-disposition http://ligman.me/2tYdqU8		
+wget --content-disposition http://ligman.me/1oB9ptL		
+wget --content-disposition http://ligman.me/2sFbbl0		
+wget --content-disposition http://ligman.me/2v1ok8u		
+wget --content-disposition http://ligman.me/1HIcIKB		
+wget --content-disposition http://ligman.me/1Cl328D		
+wget --content-disposition http://ligman.me/VSpodw		
+wget --content-disposition http://ligman.me/1S36CGa		
+wget --content-disposition http://ligman.me/2tEPKBF		
+wget --content-disposition http://ligman.me/2sVSiyp		
+wget --content-disposition http://ligman.me/2tEHPV9		
+wget --content-disposition http://ligman.me/2t3xIav		
+wget --content-disposition http://ligman.me/1H1MFKr		
+wget --content-disposition http://ligman.me/2u2bSbh		
+wget --content-disposition http://ligman.me/2u7XYoT		
+wget --content-disposition http://ligman.me/2txAWqi		
+wget --content-disposition http://ligman.me/1sgBtn4		
+wget --content-disposition http://ligman.me/2tEnvmU		
+wget --content-disposition http://ligman.me/2txxLic		
+wget --content-disposition http://ligman.me/2u89sJ3		
+wget --content-disposition http://ligman.me/1qzON6Q		
+wget --content-disposition http://ligman.me/2tXYR34		
+wget --content-disposition http://ligman.me/1onTg9n		
+wget --content-disposition http://ligman.me/2uH1nrZ		
+wget --content-disposition http://ligman.me/VP2t2L		
+wget --content-disposition http://ligman.me/2v0u0jd		
+wget --content-disposition http://ligman.me/1dD6v6s		
+wget --content-disposition http://ligman.me/1Ra595J		
+wget --content-disposition http://ligman.me/2v0H3ku		
+wget --content-disposition http://ligman.me/2tEtms3		
+wget --content-disposition http://ligman.me/2u88i06		
+wget --content-disposition http://ligman.me/1jWMJA2		
+wget --content-disposition http://ligman.me/1qZlnOJ		
+wget --content-disposition http://ligman.me/2u2RnLQ		
+wget --content-disposition http://ligman.me/2v0AQFy		
+wget --content-disposition http://ligman.me/1xqtaWN		
+wget --content-disposition http://ligman.me/2v0v72p		
+wget --content-disposition http://ligman.me/1HCDxl9		
+wget --content-disposition http://ligman.me/2u7Lw8N		
+wget --content-disposition http://ligman.me/1HByNKS		
+wget --content-disposition http://ligman.me/29a22WR		
+wget --content-disposition http://ligman.me/29bcJtd		
+wget --content-disposition http://ligman.me/29rwoHw		
+wget --content-disposition http://ligman.me/2sF7s6H		
+wget --content-disposition http://ligman.me/1CSMobd		
+wget --content-disposition http://ligman.me/29d5XTw		
+wget --content-disposition http://ligman.me/29rwoY0		
+wget --content-disposition http://ligman.me/29d1wc3		
+wget --content-disposition http://ligman.me/29fudHc		
+wget --content-disposition http://ligman.me/1FYtDD8		
+wget --content-disposition http://ligman.me/29hVdVa		
+wget --content-disposition http://ligman.me/29fDult		
+wget --content-disposition http://ligman.me/29cfePX		
+wget --content-disposition http://ligman.me/1NCfcKC		
+wget --content-disposition http://ligman.me/29fDylj		
+wget --content-disposition http://ligman.me/29fDylj		
+wget --content-disposition http://ligman.me/29d5AbX		
+wget --content-disposition http://ligman.me/1JI6V77		
+wget --content-disposition http://ligman.me/1H4Q0e5		
+wget --content-disposition http://ligman.me/1LMpRns		
+wget --content-disposition http://ligman.me/1HCCCRP		
+wget --content-disposition http://ligman.me/29FzGG5		
+wget --content-disposition http://ligman.me/29e6cTO		
+wget --content-disposition http://ligman.me/29gfrkN		
+wget --content-disposition http://ligman.me/1Ra5c1c		
+wget --content-disposition http://ligman.me/29vGIvY		
+wget --content-disposition http://ligman.me/2sVGUSX		
+wget --content-disposition http://ligman.me/2u1KmL9		
+wget --content-disposition http://ligman.me/1n49kzj		
+wget --content-disposition http://ligman.me/1qZlFVR		
+wget --content-disposition http://ligman.me/TWa2Dg		
+wget --content-disposition http://ligman.me/1xzdEtT		
+wget --content-disposition http://ligman.me/1HCQyeA		
+wget --content-disposition http://ligman.me/1Cg5iOv		
+wget --content-disposition http://ligman.me/2sUC4FK		
+wget --content-disposition http://ligman.me/2u12ggX		
+wget --content-disposition http://ligman.me/1onU8Ld		
+wget --content-disposition http://ligman.me/1vM9mwt		
+wget --content-disposition http://ligman.me/1rB8nl1		
+wget --content-disposition http://ligman.me/1JDjqUt		
+wget --content-disposition http://ligman.me/1eqdXCI		
+wget --content-disposition http://ligman.me/1Uj0hu2		
+wget --content-disposition http://ligman.me/2tYk9gX		
+wget --content-disposition http://ligman.me/2tYk9gX		
+wget --content-disposition http://ligman.me/2sVrsGy		
+wget --content-disposition http://ligman.me/1M7Xr5v		
+wget --content-disposition http://ligman.me/2t3nqXV		
+wget --content-disposition http://ligman.me/2u2K9aI		
+wget --content-disposition http://ligman.me/1vM9H2d		
+wget --content-disposition http://ligman.me/2sFsnXy		
+wget --content-disposition http://ligman.me/1m6xucg		
+wget --content-disposition http://ligman.me/1qzRntH		
+wget --content-disposition http://ligman.me/1lJmKeW		
+wget --content-disposition http://ligman.me/29ZNaMN		
+wget --content-disposition http://ligman.me/2tEERQt		
+wget --content-disposition http://ligman.me/29sp3nZ		
+wget --content-disposition http://ligman.me/29LXmMt		
+wget --content-disposition http://ligman.me/29EmfZc		
+wget --content-disposition http://ligman.me/2t3HOIt		
+wget --content-disposition http://ligman.me/2tE789y		
+wget --content-disposition http://ligman.me/2sUDY9j		
+wget --content-disposition http://ligman.me/2tEI5U4		
+wget --content-disposition http://ligman.me/29yWFFf		
+wget --content-disposition http://ligman.me/2tEtGXW		
+wget --content-disposition http://ligman.me/2txJKMz		
+wget --content-disposition http://ligman.me/2uH1kN1		
+wget --content-disposition http://ligman.me/2tY8L4x		
+wget --content-disposition http://ligman.me/2tyf2TJ		
+wget --content-disposition http://ligman.me/2v0CY01		
+wget --content-disposition http://ligman.me/2v0vXMn		
+wget --content-disposition http://ligman.me/2u8l13d		
+wget --content-disposition http://ligman.me/2u8jZEr		
+wget --content-disposition http://ligman.me/1omCrM6		
+wget --content-disposition http://ligman.me/2sFvbUs		
+wget --content-disposition http://ligman.me/2tYmSHb		
+wget --content-disposition http://ligman.me/1n3mkVY		
+wget --content-disposition http://ligman.me/2tEXUKw		
+wget --content-disposition http://ligman.me/2tEAt3Z		
+wget --content-disposition http://ligman.me/2t3uPGw		
+wget --content-disposition http://ligman.me/2uFTByu		
+wget --content-disposition http://ligman.me/2tXvePt		
+wget --content-disposition http://ligman.me/12FIZ1I		
+wget --content-disposition http://ligman.me/2v0Dhb1		
+wget --content-disposition http://ligman.me/2u0QCD2		
+wget --content-disposition http://ligman.me/2sEzMGA		
+wget --content-disposition http://ligman.me/2u8h5PG		
+wget --content-disposition http://ligman.me/2uGN9ao		
+wget --content-disposition http://ligman.me/TL3pn1		
+wget --content-disposition http://ligman.me/2txHeGo		
+wget --content-disposition http://ligman.me/29FkNr3		
+wget --content-disposition http://ligman.me/1anyEJj		
+wget --content-disposition http://ligman.me/N1HEpM		
+wget --content-disposition http://ligman.me/2sVpUwk		
+wget --content-disposition http://ligman.me/2u8ao0i		
+wget --content-disposition http://ligman.me/2u7MT7t		
+wget --content-disposition http://ligman.me/2u89lNQ		
+wget --content-disposition http://ligman.me/1ReR3Qq		
+wget --content-disposition http://ligman.me/1RWzIGZ		
+wget --content-disposition http://ligman.me/1CQXzkt		
+wget --content-disposition http://ligman.me/1HBRMVs		
+wget --content-disposition http://ligman.me/2u2j5sf		
+wget --content-disposition http://ligman.me/1gfab07		
+wget --content-disposition http://ligman.me/1JIDq58		
+wget --content-disposition http://ligman.me/1KBMoTl		
+wget --content-disposition http://ligman.me/1C7dU9J		
+wget --content-disposition http://ligman.me/1GVycPq		
+wget --content-disposition http://ligman.me/1LIJflp		
+wget --content-disposition http://ligman.me/2u7ml6r		
+wget --content-disposition http://ligman.me/2tXqzgh		
+wget --content-disposition http://ligman.me/2u0ZCYU		
+wget --content-disposition http://ligman.me/2t2o340		
+wget --content-disposition http://ligman.me/2txRCxI		
+wget --content-disposition http://ligman.me/1CQXzko		
+wget --content-disposition http://ligman.me/1KyNJvs		
+wget --content-disposition http://ligman.me/1C7dEYi		
+wget --content-disposition http://ligman.me/1IzBL34		
+wget --content-disposition http://ligman.me/29pcQFA		
+wget --content-disposition http://ligman.me/N1J8A8		
+wget --content-disposition http://ligman.me/N1JfvI		
+wget --content-disposition http://ligman.me/16E6G9L		
+wget --content-disposition http://ligman.me/16dHXZ9		
+wget --content-disposition http://ligman.me/1S1f34H		
+wget --content-disposition http://ligman.me/2sFqolM		
+wget --content-disposition http://ligman.me/2tEHwtq		
+wget --content-disposition http://ligman.me/2uGQTc7		
+wget --content-disposition http://ligman.me/2u7TbUy		
+wget --content-disposition http://ligman.me/2tYmEzR		
+wget --content-disposition http://ligman.me/2tYaW8d		
+wget --content-disposition http://ligman.me/2u2HKg6		
+wget --content-disposition http://ligman.me/2tEHLVm		
+wget --content-disposition http://ligman.me/11IMDlh		
+wget --content-disposition http://ligman.me/29i2CEe		
+wget --content-disposition http://ligman.me/29hofVk		
+wget --content-disposition http://ligman.me/2sVrwWU		
+wget --content-disposition http://ligman.me/2u2uvvZ		
+wget --content-disposition http://ligman.me/1dD6S0J		
+wget --content-disposition http://ligman.me/1NEgrJQ		
+wget --content-disposition http://ligman.me/1IzC1z4		
+wget --content-disposition http://ligman.me/2sUch05		
+wget --content-disposition http://ligman.me/2twxADW		
+wget --content-disposition http://ligman.me/2sEqaM0		
+wget --content-disposition http://ligman.me/1JDrhBp		
+wget --content-disposition http://ligman.me/1RWFCrK		
+wget --content-disposition http://ligman.me/1M05t0d		
+wget --content-disposition http://ligman.me/1C7okGv		
+wget --content-disposition http://ligman.me/1UjcLBK		
+wget --content-disposition http://ligman.me/1HBYNpg		
+wget --content-disposition http://ligman.me/1KBVfnS		
+wget --content-disposition http://ligman.me/1IzIbPR		
+wget --content-disposition http://ligman.me/1HBYYRF		
+wget --content-disposition http://ligman.me/1IzHZA1		
+wget --content-disposition http://ligman.me/1RWFd8K		
+wget --content-disposition http://ligman.me/1HCW4Or		
+wget --content-disposition http://ligman.me/1GUUqSD		
+wget --content-disposition http://ligman.me/1Cg8UQs		
+wget --content-disposition http://ligman.me/1KyVGkv		
+wget --content-disposition http://ligman.me/1CQXNbj		
+wget --content-disposition http://ligman.me/1M05ktI		
+wget --content-disposition http://ligman.me/1Ujd8fL		
+wget --content-disposition http://ligman.me/1GUOZ6b		
+wget --content-disposition http://ligman.me/1HCR2l0		
+wget --content-disposition http://ligman.me/1FYOjLl		
+wget --content-disposition http://ligman.me/1GUP0qL		
+wget --content-disposition http://ligman.me/1GVyNAv		
+wget --content-disposition http://ligman.me/1HBSfqC		
+wget --content-disposition http://ligman.me/1KBMN8a		
+wget --content-disposition http://ligman.me/1HCQQCb		
+wget --content-disposition http://ligman.me/1Uj1dyo		
+wget --content-disposition http://ligman.me/1f9cKQZ		
+wget --content-disposition http://ligman.me/1RWzUWP		
+wget --content-disposition http://ligman.me/1LIJxJ0		
+wget --content-disposition http://ligman.me/1gfaIzh		
+wget --content-disposition http://ligman.me/1LIJHA5		
+wget --content-disposition http://ligman.me/1HCQXxv		
+wget --content-disposition http://ligman.me/1JIF6vB		
+wget --content-disposition http://ligman.me/1TaxTZD		
+wget --content-disposition http://ligman.me/1TaxTJ5		
+wget --content-disposition http://ligman.me/1M00Lzu		
+wget --content-disposition http://ligman.me/1Cg5xc8		
+wget --content-disposition http://ligman.me/1IWkjlf		
+wget --content-disposition http://ligman.me/1M00v3u		
+wget --content-disposition http://ligman.me/1GUOMzL		
+wget --content-disposition http://ligman.me/1TaxqXr		
+wget --content-disposition http://ligman.me/2t3NaDl		
+wget --content-disposition http://ligman.me/1M05yAY		
+wget --content-disposition http://ligman.me/1eql6Ts		
+wget --content-disposition http://ligman.me/2sE9XX1		
+wget --content-disposition http://ligman.me/2uZgfBj		
+wget --content-disposition http://ligman.me/2tDZAUn		
+wget --content-disposition http://ligman.me/2twLeqF		
+wget --content-disposition http://ligman.me/2sF5tQ8		
+wget --content-disposition http://ligman.me/2t2WmYx		
+wget --content-disposition http://ligman.me/2uZiHI3		
+wget --content-disposition http://ligman.me/2t2qX8T		
+wget --content-disposition http://ligman.me/1Uiyx8Q		
+wget --content-disposition http://ligman.me/1C6Tg9G		
+wget --content-disposition http://ligman.me/1HCIlqM		
+wget --content-disposition http://ligman.me/1JDrMeG		
+wget --content-disposition http://ligman.me/1GVGV3U		
+wget --content-disposition http://ligman.me/1JDrIvt		
+wget --content-disposition http://ligman.me/1GVGQgI		
+wget --content-disposition http://ligman.me/1RWFVCS		
+wget --content-disposition http://ligman.me/1RWFUig		
+wget --content-disposition http://ligman.me/2txIfxW		
+wget --content-disposition http://ligman.me/2sVHDUg		
+wget --content-disposition http://ligman.me/2u2R83b		
+wget --content-disposition http://ligman.me/29ErxWs		
+wget --content-disposition http://ligman.me/29yWAAO		
+wget --content-disposition http://ligman.me/2sFzkaR		
+wget --content-disposition http://ligman.me/2u12Nj7		
+wget --content-disposition http://ligman.me/2uFUOG1		
+wget --content-disposition http://ligman.me/2twRrCJ		
+wget --content-disposition http://ligman.me/2t2mx1M		
+wget --content-disposition http://ligman.me/2t2cYjp		
+wget --content-disposition http://ligman.me/2twtAmW		
+wget --content-disposition http://ligman.me/2u0YnZu		
+wget --content-disposition http://ligman.me/2u15CAR		
+wget --content-disposition http://ligman.me/1sfkqBW		
+wget --content-disposition http://ligman.me/2txOv8Z		
+wget --content-disposition http://ligman.me/1M06aXa		
+wget --content-disposition http://ligman.me/1FYVYcy		
+wget --content-disposition http://ligman.me/1dDcZ5h		
+wget --content-disposition http://ligman.me/1H5ajbj		
+wget --content-disposition http://ligman.me/1M0681D		
+wget --content-disposition http://ligman.me/1UjeQh2		
+wget --content-disposition http://ligman.me/1JIV1Kk		
+wget --content-disposition http://ligman.me/1NErPpa		
+wget --content-disposition http://ligman.me/1eqlNMp		
+wget --content-disposition http://ligman.me/1NCxHi5		
+wget --content-disposition http://ligman.me/1KBX7Nw		
+wget --content-disposition http://ligman.me/1IzJ6Qp		
+wget --content-disposition http://ligman.me/2uFKRZd		
+wget --content-disposition http://ligman.me/2tDMJl0		
+wget --content-disposition http://ligman.me/2uFDelL		
+wget --content-disposition http://ligman.me/2twmtKY		
+wget --content-disposition http://ligman.me/1f9k8fe		
+wget --content-disposition http://ligman.me/1eqm4za		
+wget --content-disposition http://ligman.me/2tXBiHF		
+wget --content-disposition http://ligman.me/2v1cDyG		
+wget --content-disposition http://ligman.me/2txRQFd		
+wget --content-disposition http://ligman.me/2v1zdYa		
+wget --content-disposition http://ligman.me/2sW0A9v		
+wget --content-disposition http://ligman.me/2txQLgl		
+wget --content-disposition http://ligman.me/2sFbVq3		
